@@ -1,0 +1,34 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://fonts.cdnfonts.com/css/verdana-pro-cond" rel="stylesheet">        
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="counter-container">
+            <div>
+                <h3 class="team-title">HOME</h3>
+                <span class="count" id="countHome">0</span>
+                <div class="button-container">
+                    <button id="addOneHome" onclick="addOneHome()">+1</button>
+                    <button id="addTwoHome" onclick="addTwoHome()">+2</button>
+                    <button id="addThreeHome" onclick="addThreeHome()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3 class="team-title">GUEST</h3>
+                <span class="count" id="countGuest">0</span>
+                <div class="button-container">
+                <button id="addOneGuest" onclick="addOneGuest()">+1</button>
+                <button id="addTwoGuest" onclick="addTwoGuest()">+2</button>
+                <button id="addThreeGuest" onclick="addThreeGuest()">+3</button>
+                </div>
+            </div>
+        </div>
+            <div class="bottom-container">
+            <button id="reset" onclick="resetCount()">New game</button>
+            <p id="displayDateTime"></p>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
