@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>comparePrices 🚃 🔍</h1>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time">
+        <p id="message">If you choose a new date or time, always click your desired route again!</p>
+        
+        <br>
+        
+          <p>Select a route & compare prices:</p>
+<button onclick="hraWie()">Hranice --> Wien</button>
+<button onclick="wieHra()">Wien --> Hranice</button>
+<button onclick="ostWie()">Ostrava --> Wien</button>
+<button onclick="wieOst()">Wien --> Ostrava</button>
+<br><br>
+
+
+<a class="hide" href="" id="cdTrain" target="_blank">CD🚆🇨🇿</a><br><br>
+<a class="hide" href="" id="obbTrain" target="_blank">OBB🚆🇦🇹</a>
+<br><br>
+
+<button class="hide" id="reset" onclick="reset()">Reset</button>
+
+        <script src="index.js"></script>
+    </body>
+</html>

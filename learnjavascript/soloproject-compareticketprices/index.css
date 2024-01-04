@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 2vw;
+    font-size: 1vw; /* Use vw for fluid font sizing */
+}
+
+#message {
+    color: red;
+    font-size: 1.6vw;
+}
+
+a {
+    display: inline-block;
+    font-size: 3vw;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+/* Responsive styles */
+@media screen and (min-width: 300px) {
+    body {
+        font-size: 3vw;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+
+    input {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 2vw;
+        margin-bottom: 1em;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 2.5vw;
+        margin-bottom: 1em;
+    }
+
+    p#ticketsUrl {
+        margin-top: 1em;
+    }
+}
